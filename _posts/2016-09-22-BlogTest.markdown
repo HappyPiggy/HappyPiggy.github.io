@@ -1,14 +1,18 @@
 ---
 layout: post
 title:  "Git Pages搭建"
-date:   2016-8-22 20:13:42
+date:   2016-9-22 20:20:42
 categories: Technology
 tags: gitpages搭建 
 ---
 
 ## 搭建成功
 
-git Pages + MarkDown + Jekyll 写博客
+用零零碎碎的时间搭建了这个基于git Pages的博客。
+
+以后就高大上地用 git Pages + MarkDown + Jekyll 写博客了
+
+hhhhh
 
 
 ## 换行测试

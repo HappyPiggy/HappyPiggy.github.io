@@ -7,7 +7,7 @@
 
 # Site settings
 title: </Blog>
-brief-intro: 
+brief-intro: Life & Code 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://happypiggy.github.io/" # the base hostname & protocol for your site
 
