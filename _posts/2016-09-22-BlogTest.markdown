@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Git Pages搭建"
+date:   2016-8-22 20:13:42
+categories: Technology
+tags: gitpages搭建 
+---
+
+## 搭建成功
+
+git Pages + MarkDown + Jekyll 写博客
+
+
+## 换行测试
+
+富强，民主，文明，和谐。
+
+自由，平等，公正，法制。
+
+
+## 代码高亮测试
+```c++
+cout<<"Hello Blog";
+```
+
+
+### 外链测试
+[我是百度](https://www.baidu.com/)
