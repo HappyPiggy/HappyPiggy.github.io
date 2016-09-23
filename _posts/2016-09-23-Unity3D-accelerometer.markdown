@@ -38,7 +38,7 @@ Unity也提供了相应的函数获得重力感应的方向。比如下面这个
 
 添加这两个函数
 ```c#
- void ColibrateAcclerometer()
+	 void ColibrateAcclerometer()
     {
         Vector3 acclerationSnapShot = Input.acceleration;
         Quaternion rotateQuaternion = Quaternion.FromToRotation(new Vector3(0.0f,0.0f,-1),acclerationSnapShot);
@@ -55,13 +55,13 @@ Unity也提供了相应的函数获得重力感应的方向。比如下面这个
 
 把需要控制主角的代码段修改为
 ```c#
- Vector3 acclerationRaw = Input.acceleration  ;
+		Vector3 acclerationRaw = Input.acceleration  ;
         Vector3 accleration = FixAccleration(acclerationRaw);
         Vector3 movement = new Vector3(accleration.x, 0.0f, accleration.y);
         GetComponent<Rigidbody>().velocity = movement*speed;
 ```
 
-问题解决！
+问题解决！!
 
    
    
