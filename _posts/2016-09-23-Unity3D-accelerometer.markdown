@@ -45,7 +45,6 @@ Unity也提供了相应的函数获得重力感应的方向。比如下面这个
         calibrateQuaternion = Quaternion.Inverse(rotateQuaternion);
         Debug.Log(rotateQuaternion);
     }
-
      Vector3 FixAccleration(Vector3 accleration)
     {
         Vector3 fixedAccleration =  calibrateQuaternion * accleration;
