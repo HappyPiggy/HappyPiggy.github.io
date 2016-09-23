@@ -37,7 +37,8 @@ GetComponent<Rigidbody>().velocity = movement*speed;
 这样无论哪个情况都可以完美适应。
 
 添加这两个函数
-```
+
+```c#
 void ColibrateAcclerometer()
     {
         Vector3 acclerationSnapShot = Input.acceleration;
@@ -51,10 +52,12 @@ Vector3 FixAccleration(Vector3 accleration)
         return fixedAccleration;
     }
 ```
+
 在Start中调用 ColibrateAcclerometer()
 
 把需要控制主角的代码段修改为
-```
+
+```c#
 Vector3 acclerationRaw = Input.acceleration  ;
 Vector3 accleration = FixAccleration(acclerationRaw);
 Vector3 movement = new Vector3(accleration.x, 0.0f, accleration.y);
