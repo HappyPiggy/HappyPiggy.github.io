@@ -9,10 +9,10 @@ tags: accelerometer Unity3D
 在Unity3D手机游戏开发中，有些游戏需要用到重力感应来控制主角的移动。
 Unity也提供了相应的函数获得重力感应的方向。比如下面这个方式来控制重力感应。
 
-```c#
-		Vector3 accleration = Input.acceleration  ;
-        Vector3 movement = new Vector3(accleration.x, 0.0f, accleration.y);
-        GetComponent<Rigidbody>().velocity = movement*speed;
+```c++
+Vector3 accleration = Input.acceleration  ;
+Vector3 movement = new Vector3(accleration.x, 0.0f, accleration.y);
+GetComponent<Rigidbody>().velocity = movement*speed;
 ```
 
 但是这样带来了一个问题：
@@ -37,15 +37,15 @@ Unity也提供了相应的函数获得重力感应的方向。比如下面这个
 这样无论哪个情况都可以完美适应。
 
 添加这两个函数
-```c#
-	 void ColibrateAcclerometer()
+```c++
+void ColibrateAcclerometer()
     {
         Vector3 acclerationSnapShot = Input.acceleration;
         Quaternion rotateQuaternion = Quaternion.FromToRotation(new Vector3(0.0f,0.0f,-1),acclerationSnapShot);
         calibrateQuaternion = Quaternion.Inverse(rotateQuaternion);
         Debug.Log(rotateQuaternion);
     }
-     Vector3 FixAccleration(Vector3 accleration)
+Vector3 FixAccleration(Vector3 accleration)
     {
         Vector3 fixedAccleration =  calibrateQuaternion * accleration;
         return fixedAccleration;
@@ -54,11 +54,11 @@ Unity也提供了相应的函数获得重力感应的方向。比如下面这个
 在Start中调用 ColibrateAcclerometer()
 
 把需要控制主角的代码段修改为
-```c#
-		Vector3 acclerationRaw = Input.acceleration  ;
-        Vector3 accleration = FixAccleration(acclerationRaw);
-        Vector3 movement = new Vector3(accleration.x, 0.0f, accleration.y);
-        GetComponent<Rigidbody>().velocity = movement*speed;
+```c++
+Vector3 acclerationRaw = Input.acceleration  ;
+Vector3 accleration = FixAccleration(acclerationRaw);
+Vector3 movement = new Vector3(accleration.x, 0.0f, accleration.y);
+GetComponent<Rigidbody>().velocity = movement*speed;
 ```
 
 问题解决！!
