@@ -1,0 +1,101 @@
+---
+layout: post
+title:  "VS2012插件推荐"
+date:   2016-9-25 
+categories: Tools
+tags: vs2012 插件 
+---
+
+## 没有对比就没有伤害
+工欲善其事，必先利其器。
+作为一只程序猿，一直在windows下编程，但却不知道 visual studio 的强大，
+没有用好手中的工具，真是惭愧。
+
+看到知乎上这么比较主流的IDE：
+
+Vim和Emacs
+
+![](https://pic1.zhimg.com/54df8fd6aa598d950d993a119845ba5c_r.jpg)
+
+高手用起来时是这样的
+
+![](https://pic3.zhimg.com/a4f80fd792e775aa01a85c91d1b0424e_b.jpg)
+
+XCode
+
+![](https://pic3.zhimg.com/deb2902c6703b3d9d77c0237b25ec656_r.jpg)
+
+IntelliJ
+
+![](https://pic3.zhimg.com/0e2009476a8bf2b602111e822a062e02_r.jpg)
+
+VS
+
+![](https://pic2.zhimg.com/1ad9a40fc4b065d0fe4fc7b783270e25_r.jpg)
+
+### 正文来了，插件推荐
+
+*  以下操作在
+`Windows7`,`vs2012的旗舰版(ultimate)`下进行。
+
+*  vs中可以直接下载插件，位置在`菜单-工具-扩展和更新-联机-Visual Studio库`中搜索就可以安装了。
+（英文版vs位于：`Tools-Extensions and Updates-Online`，后文以中文为例） 
+
+*  所有下载的插件都可以在`工具 / 选项`中进行管理。
+
+**Indent Guide**
+
+不多说，效果如图
+
+![](http://pic002.cnblogs.com/images/2012/302956/2012060514344988.png)
+
+在代码量比较多，循环套循环，if套if时，查看理解代码极为方便。
+不过不知道为什么，我在vs自带插件库里找不到这个插件。可以自行去[官网下载](http://indentguide.codeplex.com/releases/view/624767)
+注意下载和vs对应的版本。
+
+**Productivity Power Tools**
+
+介绍几个常用功能
+
+1.Automatic Brace Completion(自动补全)
+
+![](http://images.cnitblog.com/i/30991/201405/071439113076838.gif)
+
+这个功能包括补全左右括号，尖括号，还有自动补全分号并换行等等。不知道出于什么原因，我的补全分号功功能用不了。
+网上查了查，可能是VS是中文版的原因？？黑人问号？？
+
+所以我只好下了一个专门补全代码的插件[Brace Completer](https://visualstudiogallery.msdn.microsoft.com/0e33cb22-d4ac-4f5a-902f-aff5177cc94d/view/Reviews/2)
+
+2.Align Assignments
+
+功能:对齐代码,强迫症福利
+
+![](http://i1.visualstudiogallery.msdn.s-msft.com/3a96a4dc-ba9c-4589-92c5-640e07332afd/image/file/88413/1/alignassignments1.png)
+
+对齐后:
+
+![](http://i1.visualstudiogallery.msdn.s-msft.com/3a96a4dc-ba9c-4589-92c5-640e07332afd/image/file/88414/1/alignassignments2.png)
+
+用法:选中代码段，Ctrl+Alt+]
+
+3.跳转到定义
+
+vs自带跳转到定义需要选中函数，或者变量后按F12。这个插件只需要你按住ctrl，然后点击函数就可以进行跳转。
+
+4.Move Line Up/Down Commands
+
+效果如图:
+
+![](http://images.cnitblog.com/i/30991/201405/071439250265462.gif)
+
+如果无法实现此功能
+
+请检查` 工具->选项->Environment->键盘 ` 
+
+修改 `Edit.MoveLineUp , Edit.MoveLineDown`的快捷键。
+
+参考:
+
+[https://visualstudiogallery.msdn.microsoft.com/3a96a4dc-ba9c-4589-92c5-640e07332afd](https://visualstudiogallery.msdn.microsoft.com/3a96a4dc-ba9c-4589-92c5-640e07332afd)
+
+[http://www.cnblogs.com/stg609/p/3713831.html](http://www.cnblogs.com/stg609/p/3713831.html)
