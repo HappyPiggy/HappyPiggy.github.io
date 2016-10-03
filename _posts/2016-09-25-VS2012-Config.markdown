@@ -15,22 +15,22 @@ tags: vs2012 插件
 
 Vim和Emacs
 
-![](http://thumbnail0.baidupcs.com/thumbnail/54df8fd6aa598d950d993a119845ba5c?fid=184667959-250528-1024497426271130&time=1475496000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-3MFPM1Yv%2B16Y%2B2e8VmzUzGoStBo%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6421329433050373605&dp-callid=0&size=c710_u400&quality=100
+![](http://p1.bqimg.com/575621/aa598d950d993a11.jpg)
 高手用起来时是这样的
 
-![](http://thumbnail0.baidupcs.com/thumbnail/9ca70eba23d5576ea070e5dc014cb7ee?fid=184667959-250528-182939180629504&time=1475496000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-r%2FMhbI1dH%2BVHQrtnjAokagq3w0k%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6421346007912177258&dp-callid=0&size=c710_u400&quality=100)
+![](http://p1.bqimg.com/575621/23d5576ea070e5dc.jpg)
 
 XCode
 
-![](https://pic3.zhimg.com/deb2902c6703b3d9d77c0237b25ec656_r.jpg)
+![](http://p1.bqimg.com/575621/6703b3d9d77c0237.jpg)
 
 IntelliJ
 
-![](https://pic3.zhimg.com/0e2009476a8bf2b602111e822a062e02_r.jpg)
+![](http://p1.bqimg.com/575621/6a8bf2b602111e82.jpg)
 
 VS
 
-![](https://pic2.zhimg.com/1ad9a40fc4b065d0fe4fc7b783270e25_r.jpg)
+![](http://p1.bqimg.com/1949/c4b065d0fe4fc7b7.jpg)
 
 ### 正文来了，插件推荐
 
