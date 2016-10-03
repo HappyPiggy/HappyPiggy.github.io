@@ -16,6 +16,7 @@ tags: vs2012 插件
 Vim和Emacs
 
 ![](http://p1.bqimg.com/575621/aa598d950d993a11.jpg)
+
 高手用起来时是这样的
 
 ![](http://p1.bqimg.com/575621/23d5576ea070e5dc.jpg)
