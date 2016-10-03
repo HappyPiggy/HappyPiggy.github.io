@@ -2,7 +2,7 @@
 layout: post
 title:  "实现Player移动的几种方式"
 date:   2016-10-03
-categories: Tools
+categories: Technology
 tags: Unity3D 
 ---
 
